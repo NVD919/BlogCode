@@ -1,0 +1,281 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      9365,        271]
+NotebookOptionsPosition[      8775,        247]
+NotebookOutlinePosition[      9113,        262]
+CellTagsIndexPosition[      9070,        259]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<ErrorBarPlots`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6229495792786427`*^9, 3.622949600880807*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ErrorListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["100", 
+          RowBox[{"100", "*", "10"}]], ",", "1.01"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.012", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["100", 
+          RowBox[{"75", "*", "7.5"}]], ",", "1.014"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.012", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["100", 
+          RowBox[{"50", "*", "5"}]], ",", "1.025"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.014", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         FractionBox["100", 
+          RowBox[{"25", "*", "2.5"}]], ",", "1.112"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.140", "]"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+     RowBox[{"DataRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "100"}], ",", "100"}], "}"}]}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.622949387905096*^9, 3.6229493879132757`*^9}, {
+   3.622949423683572*^9, 3.622949438437377*^9}, {3.622949472656426*^9, 
+   3.622949531494328*^9}, {3.622949565056183*^9, 3.6229495711221743`*^9}, {
+   3.622949673562648*^9, 3.622949814332964*^9}, {3.622949860947204*^9, 
+   3.622949864789302*^9}, {3.62294992832064*^9, 3.622949942957778*^9}, {
+   3.622950044001717*^9, 3.622950100608449*^9}, {3.622950131729209*^9, 
+   3.622950144510098*^9}, 3.6229511984742193`*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.24720000000000014`, 0.24, 0.6], 
+     LineBox[{{0.1, 1.01}, {0.17777777777777778`, 1.014}, {0.4, 1.025}, {1.6, 
+      1.112}}], {{LineBox[{{0.1, 1.022}, {0.1, 0.998}}], 
+       LineBox[{
+        Offset[{1.5, 0}, {0.1, 1.022}], Offset[{-1.5, 0}, {0.1, 1.022}]}], 
+       LineBox[{
+        Offset[{1.5, 0}, {0.1, 0.998}], Offset[{-1.5, 0}, {0.1, 0.998}]}]}, {
+       LineBox[{{0.17777777777777778`, 1.026}, {0.17777777777777778`, 
+        1.002}}], 
+       LineBox[{
+        Offset[{1.5, 0}, {0.17777777777777778`, 1.026}], 
+         Offset[{-1.5, 0}, {0.17777777777777778`, 1.026}]}], 
+       LineBox[{
+        Offset[{1.5, 0}, {0.17777777777777778`, 1.002}], 
+         Offset[{-1.5, 0}, {0.17777777777777778`, 1.002}]}]}, {
+       LineBox[{{0.4, 1.039}, {0.4, 1.011}}], 
+       LineBox[{
+        Offset[{1.5, 0}, {0.4, 1.039}], Offset[{-1.5, 0}, {0.4, 1.039}]}], 
+       LineBox[{
+        Offset[{1.5, 0}, {0.4, 1.011}], Offset[{-1.5, 0}, {0.4, 1.011}]}]}, {
+       LineBox[{{1.6, 1.2520000000000002`}, {1.6, 0.9720000000000001}}], 
+       LineBox[{
+        Offset[{1.5, 0}, {1.6, 1.2520000000000002`}], 
+         Offset[{-1.5, 0}, {1.6, 1.2520000000000002`}]}], 
+       LineBox[{
+        Offset[{1.5, 0}, {1.6, 0.9720000000000001}], 
+         Offset[{-1.5, 0}, {1.6, 0.9720000000000001}]}]}}}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 1.01},
+  Method->{},
+  PlotRange->{{0, 1.6}, {1.01, 1.112}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0.032, 0.032}, {0.002040000000000002, 
+   0.002040000000000002}}]], "Output",
+ CellChangeTimes->{
+  3.62294957210426*^9, 3.6229496034418793`*^9, {3.6229496763499117`*^9, 
+   3.6229496814607267`*^9}, {3.62294971537105*^9, 3.622949762473235*^9}, 
+   3.6229498654527693`*^9, {3.6229499295405273`*^9, 3.6229499435436773`*^9}, {
+   3.6229500568381147`*^9, 3.6229501008532877`*^9}, {3.622950132441897*^9, 
+   3.622950144790896*^9}, 3.6229512009580717`*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.622949419223131*^9, 3.622949419848591*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["100", 
+        RowBox[{"100", "*", "10"}]], ",", "1.01"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["100", 
+        RowBox[{"75", "*", "7.5"}]], ",", "1.014"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["100", 
+        RowBox[{"50", "*", "5"}]], ",", "1.025"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["100", 
+        RowBox[{"25", "*", "2.5"}]], ",", "1.112"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
+     RowBox[{"AxesLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Number density\>\"", ",", "\"\<Crossing time (normalized)\>\""}], 
+       "}"}]}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.622950186379352*^9, 3.6229503050609903`*^9}, 
+   3.622951207994788*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {RGBColor[0.24720000000000014`, 0.24, 0.6], 
+    LineBox[{{0.1, 1.01}, {0.17777777777777778`, 1.014}, {0.4, 1.025}, {1.6, 
+     1.112}}]}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{
+    FormBox["\"Number density\"", TraditionalForm], 
+    FormBox["\"Crossing time (normalized)\"", TraditionalForm]},
+  AxesOrigin->{0, 1.01},
+  ImageSize->Large,
+  Method->{},
+  PlotRange->{{0, 1.6}, {1.01, 1.112}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0.032, 0.032}, {0.002040000000000002, 
+   0.002040000000000002}}]], "Input",
+ CellChangeTimes->{{3.622951217128091*^9, 3.622951218705873*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0.5", ",", "1.025"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.6", ",", "1.022"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.7", ",", "1.021"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.8", ",", "1.017"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.9", ",", "1.014"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1.0", ",", "1.009"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"0.5", ",", "1.025"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.6", ",", "1.029"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.7", ",", "1.031"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.8", ",", "1.038"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0.9", ",", "1.048"}], "}"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
+     RowBox[{"AxesLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Fraction of leftgoers\>\"", ",", 
+        "\"\<Crossing time (normalized)\>\""}], "}"}]}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.622950446034754*^9, 3.6229504710047007`*^9}, {
+  3.622950506852523*^9, 3.62295062706164*^9}, {3.622950742018216*^9, 
+  3.622950748869586*^9}, {3.6229509683768187`*^9, 3.622950968915493*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {
+    {RGBColor[0.24720000000000014`, 0.24, 0.6], 
+     LineBox[{{0.5, 1.025}, {0.6, 1.022}, {0.7, 1.021}, {0.8, 1.017}, {0.9, 
+      1.014}, {1., 1.009}}]}, 
+    {RGBColor[0.6, 0.24, 0.4428931686004542], 
+     LineBox[{{0.5, 1.025}, {0.6, 1.029}, {0.7, 1.031}, {0.8, 1.038}, {0.9, 
+      1.048}}]}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{
+    FormBox["\"Fraction of leftgoers\"", TraditionalForm], 
+    FormBox["\"Crossing time (normalized)\"", TraditionalForm]},
+  AxesOrigin->{0.5, 1.009},
+  ImageSize->Large,
+  Method->{},
+  PlotRange->{{0.5, 1.}, {1.009, 1.048}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0.01, 0.01}, {0.0007800000000000029, 
+   0.0007800000000000029}}]], "Output",
+ CellChangeTimes->{3.622950629525654*^9, 3.6229507498992*^9, 
+  3.6229509694273787`*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 853},
+WindowMargins->{{44, Automatic}, {-101, Automatic}},
+FrontEndVersion->"9.0 for Linux x86 (64-bit) (February 7, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 147, 2, 32, "Input"],
+Cell[CellGroupData[{
+Cell[729, 26, 1743, 47, 237, "Input"],
+Cell[2475, 75, 2039, 43, 239, "Output"]
+}, Open  ]],
+Cell[4529, 121, 92, 1, 32, "Input"],
+Cell[4624, 124, 1020, 31, 139, "Input"],
+Cell[5647, 157, 678, 17, 312, InheritFromParent],
+Cell[CellGroupData[{
+Cell[6350, 178, 1534, 43, 165, "Input"],
+Cell[7887, 223, 872, 21, 297, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
