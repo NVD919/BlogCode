@@ -1,1 +1,1 @@
-Code for [Natural Language Processing and Twitch Chat](http://blog.ultramarineneutrinos.com/natural-language-processing-and-twitch-chat/)
+Code for [Natural Language Processing and Twitch Chat](http://blog.ultramarineneutrinos.com/natural-language-processing-and-twitch-chat/) and [What does Kappa mean?](http://blog.ultramarineneutrinos.com/what-does-kappa-mean/)
